@@ -14,7 +14,7 @@ end
 
 def pop_with_args(array)
   dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
-  dog_breeds(2).pop
+  dog_breeds.pop(2)
 end
 
 def using_shift(array)
@@ -24,5 +24,5 @@ end
 
 def shift_with_args(array)
   ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-  ice_cream(2).shift
+  ice_cream.shift(2)
 end
